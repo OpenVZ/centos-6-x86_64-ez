@@ -1,0 +1,4 @@
+$SW_SERVER/download/mirrors/centos-6
+$SW_SERVER/download/mirrors/updates-released-ce6
+http://mirrorlist.centos.org/?release=6&arch=x86_64&repo=os
+http://mirrorlist.centos.org/?release=6&arch=x86_64&repo=updates
