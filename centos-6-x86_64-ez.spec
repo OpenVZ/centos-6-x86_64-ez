@@ -51,8 +51,8 @@ Summary: %fullname %fulltemplatearch Template set
 Name: %templatename-%templatever-%templatearch-ez
 Group: Virtuozzo/Templates
 License: GPL
-Version: 7.0.0
-Release: 4%{?dist}
+Version: 8.0.0
+Release: 1%{?dist}
 BuildRoot: %_tmppath/%name-root
 BuildArch: noarch
 Requires: %package_manager_pkg
@@ -147,6 +147,9 @@ done
 %files -f files.lst
 
 %changelog
+* Fri Jan 17 2020 Konstantin Volkov <wolf@virtuozzo.com> 8.0.0-1
+- Adopted for VZ8
+
 * Mon Oct 10 2016 Konstantin Volkov <wolf@virtuozzo.com> 7.0.0-4
 - Turn back iptables service, see #PSBM-53457
 
