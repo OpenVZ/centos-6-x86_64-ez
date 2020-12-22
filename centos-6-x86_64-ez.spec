@@ -126,7 +126,6 @@ for tmpl in %templates_list; do
 	# Common things
 
 	# Installation sources
-	installfile $tmpl 0644 $dir mirrorlist
 	installfile $tmpl 0644 $dir repositories
 
 	# Packages
