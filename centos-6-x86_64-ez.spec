@@ -52,7 +52,7 @@ Name: %templatename-%templatever-%templatearch-ez
 Group: Virtuozzo/Templates
 License: GPL
 Version: 7.0.0
-Release: 6%{?dist}
+Release: 7%{?dist}
 BuildRoot: %_tmppath/%name-root
 BuildArch: noarch
 Requires: %package_manager_pkg
@@ -127,6 +127,7 @@ for tmpl in %templates_list; do
 
 	# Installation sources
 	installfile $tmpl 0644 $dir repositories
+	installfile $tmpl 0644 $dir mirrorlist
 
 	# Packages
 	installfile $tmpl 0644 $dir packages
